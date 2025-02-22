@@ -1,0 +1,12 @@
+com\example\integerview_test\service\impl\ArticleServiceImpl.class
+com\example\integerview_test\mapper\ArticleMapper.class
+com\example\integerview_test\controller\ArticleController.class
+com\example\integerview_test\IntegerviewTestApplication.class
+com\example\integerview_test\service\IArticleService.class
+com\example\integerview_test\discountedcourses\Controller.class
+com\example\integerview_test\entity\Article.class
+com\example\integerview_test\service\impl\InventoryOptimisticLockServiceImpl.class
+com\example\integerview_test\entity\InventoryOptimisticLock.class
+com\example\integerview_test\controller\InventoryOptimisticLockController.class
+com\example\integerview_test\mapper\InventoryOptimisticLockMapper.class
+com\example\integerview_test\service\IInventoryOptimisticLockService.class
