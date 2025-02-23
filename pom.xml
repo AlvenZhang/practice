@@ -10,6 +10,7 @@
     </parent>
     <modules>
         <module>optimisticLock</module>
+        <module>distributedLock</module>
         <module>gateway</module>
     </modules>
     <packaging>pom</packaging>

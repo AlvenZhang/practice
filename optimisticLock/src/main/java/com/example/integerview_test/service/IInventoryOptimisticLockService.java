@@ -12,9 +12,10 @@ import org.springframework.stereotype.Service;
  * @author xifeng
  * @since 2025-02-18
  */
-@Service
 public interface IInventoryOptimisticLockService extends IService<InventoryOptimisticLock> {
 
     InventoryOptimisticLock selectForUpdate(Integer id);
+
+    InventoryOptimisticLock selectOne(Integer id);
 
 }

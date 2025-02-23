@@ -1,5 +1,10 @@
+com\example\integerview_test\service\impl\OrderServiceImpl.class
+com\example\integerview_test\entity\Order.class
+com\example\integerview_test\mapper\OrderMapper.class
+com\example\integerview_test\service\IOrderService.class
 com\example\integerview_test\service\impl\ArticleServiceImpl.class
 com\example\integerview_test\mapper\ArticleMapper.class
+com\example\integerview_test\controller\OrderController.class
 com\example\integerview_test\controller\ArticleController.class
 com\example\integerview_test\IntegerviewTestApplication.class
 com\example\integerview_test\service\IArticleService.class
@@ -8,5 +13,7 @@ com\example\integerview_test\entity\Article.class
 com\example\integerview_test\service\impl\InventoryOptimisticLockServiceImpl.class
 com\example\integerview_test\entity\InventoryOptimisticLock.class
 com\example\integerview_test\controller\InventoryOptimisticLockController.class
+com\example\integerview_test\config\CodeGenerator.class
 com\example\integerview_test\mapper\InventoryOptimisticLockMapper.class
+com\example\integerview_test\entity\Order$OrderBuilder.class
 com\example\integerview_test\service\IInventoryOptimisticLockService.class

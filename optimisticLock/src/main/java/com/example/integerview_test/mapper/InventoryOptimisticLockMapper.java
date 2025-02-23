@@ -2,6 +2,7 @@ package com.example.integerview_test.mapper;
 
 import com.example.integerview_test.entity.InventoryOptimisticLock;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Param;
 
 
 /**
@@ -14,6 +15,6 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
  */
 public interface InventoryOptimisticLockMapper extends BaseMapper<InventoryOptimisticLock> {
 
-    InventoryOptimisticLock selectForUpdate(Integer id);
+    InventoryOptimisticLock selectForUpdate(@Param("id") Integer id);
 }
 
